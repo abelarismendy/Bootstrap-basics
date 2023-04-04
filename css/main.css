@@ -2,7 +2,56 @@
     --bs-primary: #1c1d3b;
 }
 
+body {
+    background: linear-gradient(68.2deg, rgb(7, 3, 98) -0.1%, rgb(179, 26, 132) 47.7%, rgb(239, 186, 83) 100.2%);
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .navbar-brand img {
     height: 48px;
     width: auto;
+}
+
+.about {
+    height: 800px;
+}
+
+.about-main {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.main-person {
+    background: url(../img/abel.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.nav-link {
+    padding: 1rem !important;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.nav-link.main {
+    background: #ffd600;
+    color: #1c1d3b;
+    transition: all 0.3s ease;
+}
+
+.nav-link.main:hover {
+    background: #fff;
+    color: #1c1d3b;
+}
+
+.nav-link.main:active {
+    background: none;
+    color: #fff;
 }
