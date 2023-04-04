@@ -1,0 +1,8 @@
+:root {
+    --bs-primary: #1c1d3b;
+}
+
+.navbar-brand img {
+    height: 48px;
+    width: auto;
+}
